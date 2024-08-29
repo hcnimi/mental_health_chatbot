@@ -1,0 +1,41 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-cors = "*"
+gradio = "*"
+ipykernel = "==6.28.0"
+matplotlib = "==3.8.3"
+numpy = "==1.26.3"
+ollama = "*"
+openai = "*"
+pandas = "==2.2.1"
+pinecone-client = "==2.2.4"
+psycopg2-binary = "==2.9.9"
+python-dotenv = "==1.0.0"
+scikit-learn = "*"
+sentence-transformers = "*"
+skl2onnx = "*"
+torch = "*"
+torchinfo = "==1.8.0"
+torchvision = "==0.16.2"
+umap-learn = "==0.5.6"
+wandb = "==0.16.6"
+xgboost = "==2.0.3"
+datasets = "*"
+rank-bm25 = "*"
+gr = "*"
+sentencepiece = "*"
+transformers = "*"
+sqlalchemy = "*"
+peft = "*"
+bitsandbytes = "*"
+evaluate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
